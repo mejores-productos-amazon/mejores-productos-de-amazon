@@ -1,0 +1,183 @@
+*{
+    box-sizing: border-box;
+}
+
+.navegacion li a:hover{
+    border-bottom: 1px solid black;
+    
+}
+
+.navegacion ul {
+   background-color:#CCC;
+   padding: 10px;
+   list-style: none;
+   width: 40%;
+   margin-left: 60%;
+}
+.navegacion li{
+    display: inline-block;
+    padding: 5px;
+}
+.navegacion a{
+    color: black;
+    text-decoration: none;
+}
+.lanzador-menu{
+    text-decoration: none;
+    color: #FFF;
+    padding: 6px 10px;
+    background-color: #2D211F;
+    border-radius: 3px;
+}
+.encabesado{
+    min-height: 500px;
+    background: url(AMAZON.png)no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+   
+}
+.encabesado h1{
+    font-family:cursive ;
+    color: black;
+}
+ul{
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+.cajas{
+    height: 200px;
+    width: 33%;
+    display: inline-block;
+    margin-top: 50px;
+}
+h2{
+    font-size: 50px;
+}
+.cajas h2{
+    margin-top:170px;
+    background-color: white;
+}
+#tecnologia{
+    background-image: url(tecnologia.jfif);
+    background-size: cover;
+    color: #F9AD09 ;
+}
+#tecnologia h2{
+    border: 3px solid #F9AD09;
+    border-radius: 2px;
+}
+#deportes{
+    background-image: url(deportes.jfif);
+    background-size: cover;
+    color: #F9AD09 ;
+}
+#deportes h2{
+    border: 3px solid #F9AD09;
+    border-radius: 2px;
+}
+#Libros{
+    background-image: url(libros.jpg);
+    background-size: cover;
+    color: #F9AD09 ;
+}
+#Libros h2{
+    border: 3px solid #F9AD09;
+    border-radius: 2px;
+}
+#bebes{
+    background-image: url(bebe.jpg);
+    background-size: cover;
+    color: #F9AD09 ;
+}
+#bebes h2{
+    border: 3px solid #F9AD09;
+    border-radius: 2px;
+}
+#relojes{
+    background-image: url(reloj.jpg);
+    background-size: cover;
+    color: #F9AD09 ;
+}
+#relojes h2{
+    border: 3px solid #F9AD09;
+    border-radius: 2px;
+}
+#videojuegos{
+    background-image: url(vidjue.jpg);
+    background-size: cover;
+    color: #F9AD09 ;
+}
+#videojuegos h2{
+    border: 3px solid #F9AD09;
+    border-radius: 2px;
+}
+.cajas a{
+    text-decoration: none;
+    color:#F9AD09 ;
+}
+@media screen and (max-width:830px){
+    .cajas{
+        width: 48%;
+    }
+}
+@media screen and (max-width:570px){
+    .cajas{
+        width: 100%;
+    }
+   
+}
+
+@media screen and (max-width: 1200px){
+    .js .navegacion{
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 2s;
+        position: absolute;
+        top: 30px;
+        left: 9px;
+        max-width: 300px;
+        right: 30px;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+    .js .navegacion a{
+        padding: 5px 10px;
+        color: #FFF;
+        border-top: 1px solid rgba(255, 255, 255, .4);
+    }
+    .js .navegacion.menu-desplegado{
+        max-height: 300px;
+        max-width: 300px;
+        border: 1px solid black;
+    }
+   
+}
+@media screen and (min-width:1201px){
+    .lanzador-menu{
+        display: none;
+    }
+    .navegacion{
+        margin-right: 110px;
+       
+    }
+
+}
+
+/*.navegacion  {
+    background-color:#CCC;
+    padding: 10px;
+    list-style: none;
+    width: 40%;
+    margin-left: 60%;
+    display: inline-block;
+ }
+.navegacion li{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+
+
